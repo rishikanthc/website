@@ -6,7 +6,8 @@
 
 <style>
 	.heading {
-		font-family: Kosan, sans-serif;
+		font-family: Montserrat, sans-serif;
+		/*font-weight: bold;*/
 		font-size: 20px;
 		/*transform-origin: 50% 50%;*/
 		/*transform: rotate(-90deg);*/
