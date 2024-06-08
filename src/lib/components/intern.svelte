@@ -87,7 +87,7 @@
 		display: grid;
 		gap: 1em;
 		grid-template-columns: 3fr 1fr;
-		/*width: fit-content;*/
+		width: fit-content;
 	}
 	.highlight {
 		font-style: italic;

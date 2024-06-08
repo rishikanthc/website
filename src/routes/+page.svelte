@@ -35,23 +35,25 @@
 
 <div class="app">
 	<div class="header">
-		<div class="bar">
-			<div class="logo">
-				<Logo iconColor="#000" />
-			</div>
-			<div class="name">
-				<div class="fname">RISHIKANTH</div>
-				<div class="lname">CHANDRASEKARAN</div>
-			</div>
+		<div class="logo">
+			<Logo iconColor="#000" />
+		</div>
+		<div class="name">
+			<div class="fname">RISHIKANTH</div>
+			<div class="lname">CHANDRASEKARAN</div>
 		</div>
 	</div>
 
-	<div class="front">
-		<div class="intro"><Intro /></div>
-		<div class="education"><Education /></div>
-		<div class="awards"><Awards /></div>
-		<div class="intern"><Intern /></div>
-		<div class="skills"><Skills /></div>
+	<div class="pane">
+		<div class="left">
+			<div class="intro"><Intro /></div>
+		</div>
+		<div class="front">
+			<div class="education"><Education /></div>
+			<div class="awards"><Awards /></div>
+			<div class="intern"><Intern /></div>
+			<div class="skills"><Skills /></div>
+		</div>
 	</div>
 </div>
 
@@ -70,11 +72,19 @@
 		height: 38px;
 		width: 38px;
 	}
-	.bar {
+	.header {
 		display: flex;
 		align-items: center;
 		gap: 1rem;
 		font-size: 20px;
+		height: 64px;
+		z-index: 100;
+		position: fixed;
+		width: 100%;
+		top: 0;
+		left: 0;
+		padding: 0.5em;
+		background-color: #fffcf0;
 	}
 	.name {
 		display: flex;
@@ -86,6 +96,10 @@
 		color: #100f0f;
 		margin: 0;
 		padding: 0;
+	}
+	.pane {
+		width: fit-content;
+		margin-top: 96px;
 	}
 	.fname,
 	.lname {
@@ -101,16 +115,15 @@
 	.front {
 		display: grid;
 		align-items: top;
-		max-width: 1920px;
 		justify-content: center;
+		/*overflow-y: scroll;*/
 		/*grid-auto-columns: 1fr;*/
 		gap: 4em;
 		margin: 4em auto 0em auto;
 	}
 	.app {
-		height: 98svh;
+		max-width: 1920px;
 		margin: 0 auto;
-		width: fit-content;
 		/*overflow: hidden;*/
 	}
 	@media (min-width: 710px) {
@@ -132,14 +145,14 @@
 		.front {
 			gap: 3em 8em;
 			margin-top: 2em;
-			width: 90%;
+			/*width: 90%;*/
 			grid-template-areas:
 				'one one'
 				'two three'
 				'four five';
 		}
 
-		.bar {
+		.header {
 			font-size: 32px;
 		}
 		.logo {
@@ -157,20 +170,23 @@
 	/*		gap: 6em 2em;*/
 	/*	}*/
 	/*}*/
-
 	@media (min-width: 1280px) {
 		.front {
-			grid-auto-columns: 1fr;
+			/*grid-auto-columns: 1fr;*/
 			gap: 5em 8em;
-			margin-top: 6em;
+			flex: 1;
+			/*margin-top: 6em;*/
 			/*align-items: end;*/
 			/*width: fit-content;*/
+			margin-left: 35%;
+			height: 100%;
+			/*height: calc(100% - 80px);*/
 			grid-template-areas:
-				'. two three'
-				'one four five';
+				'two three'
+				'four five';
 		}
-		.bar {
-			font-size: 48px;
+		.header {
+			font-size: 40px;
 		}
 		.name {
 			/*font-size: 1.7em;*/
@@ -180,6 +196,43 @@
 			margin-bottom: 10px;
 			width: 42px;
 			height: 42px;
+		}
+		.header {
+			height: 50px;
+		}
+		.pane {
+			display: flex;
+			width: 100%;
+			margin-top: 150px;
+			/*height: calc(100svh - 150px);*/
+			justify-content: space-between;
+		}
+		.left {
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			display: grid;
+			align-items: end;
+			width: 30%;
+		}
+	}
+	@media (min-width: 1920px) {
+		.front {
+			grid-auto-columns: 1fr;
+			gap: 5em 8em;
+			/*margin-top: 6em;*/
+			/*align-items: end;*/
+			/*width: fit-content;*/
+			grid-template-areas:
+				'two three'
+				'four five';
+		}
+		.header {
+			font-size: 48px;
+		}
+		.name {
+			/*font-size: 1.7em;*/
+			gap: 0.5em;
 		}
 	}
 </style>

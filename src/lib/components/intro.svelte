@@ -61,7 +61,7 @@
 		.intro {
 			align-items: end;
 			justify-content: end;
-			width: 70%;
+			width: 75%;
 		}
 		.circly {
 			display: block;
@@ -77,6 +77,13 @@
 		}
 		.text p {
 			clear: both;
+		}
+	}
+	@media (min-width: 1920px) {
+		.intro {
+			align-items: end;
+			justify-content: end;
+			width: 70%;
 		}
 	}
 </style>

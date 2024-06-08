@@ -19,19 +19,25 @@
 	];
 </script>
 
-<div class="skills">
-	<SectionTitle val="SKILLS" />
-	<div class="panel">
-		{#each skills as skill (skill.label)}
-			<div class="level">
-				<div class="label">{skill.label}</div>
-				<Levels size="14" level={skill.level} half={skill.half} />
-			</div>
-		{/each}
+<div class="outer">
+	<div class="skills">
+		<SectionTitle val="SKILLS" />
+		<div class="panel">
+			{#each skills as skill (skill.label)}
+				<div class="level">
+					<div class="label">{skill.label}</div>
+					<Levels size="14" level={skill.level} half={skill.half} />
+				</div>
+			{/each}
+		</div>
 	</div>
 </div>
 
 <style>
+	.outer {
+		display: grid;
+		/*justify-content: center;*/
+	}
 	.skills {
 		display: flex;
 		flex-direction: column;

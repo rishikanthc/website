@@ -4,4 +4,8 @@ body {
     color: #100F0F;
     background-color: #FFFCF0;
     height: 98svh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
 }

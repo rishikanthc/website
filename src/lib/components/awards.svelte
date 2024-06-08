@@ -51,21 +51,27 @@
 	];
 </script>
 
-<div class="awards-flex-cont">
-	<SectionTitle val="AWARDS" />
-	<div class="rows">
-		{#each awards as award}
-			<div class="row">
-				<div class="star"><Award size="28" starColor="#ffc200" /></div>
-				<div class="award">{award.name}</div>
-				<div class="sep">|</div>
-				<div class="event">{award.event}</div>
-			</div>
-		{/each}
+<div class="outer">
+	<div class="awards-flex-cont">
+		<SectionTitle val="AWARDS" />
+		<div class="rows">
+			{#each awards as award}
+				<div class="row">
+					<div class="star"><Award size="28" starColor="#ffc200" /></div>
+					<div class="award">{award.name}</div>
+					<div class="sep">|</div>
+					<div class="event">{award.event}</div>
+				</div>
+			{/each}
+		</div>
 	</div>
 </div>
 
 <style>
+	.outer {
+		display: grid;
+		/*justify-content: center;*/
+	}
 	.awards-flex-cont {
 		display: flex;
 		flex-direction: column;
@@ -80,6 +86,7 @@
 		gap: 0.8em;
 		justify-content: center;
 		align-items: start;
+		width: fit-content;
 	}
 
 	.row {
@@ -88,6 +95,7 @@
 		align-items: center;
 		justify-content: center;
 		gap: 8px;
+		width: fit-content;
 	}
 	.award {
 		font-size: 18px;
