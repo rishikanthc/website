@@ -81,7 +81,8 @@
 		top: 0;
 		left: 0;
 		padding: 0.5em;
-		background-color: #fffcf0;
+		background-color: #fff;
+		/*background-color: #fffcf0;*/
 	}
 	.name {
 		display: flex;

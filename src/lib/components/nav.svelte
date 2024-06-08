@@ -6,19 +6,21 @@
 <style>
 	.navbar {
 		display: none;
+		font-size: 20px;
+		font-family: Lombok, sans-serif;
+		/*border: 1px solid black;*/
+		flex-grow: 1;
+		margin-right: 80px;
+		justify-content: end;
+		gap: 2em;
+	}
+	a {
+		color: #100f0f;
 	}
 	@media (min-width: 1280px) {
 		.navbar {
-			display: block;
 			/*visibility: visible;*/
 			display: flex;
-			font-size: 20px;
-			font-family: Kosan, sans-serif;
-			/*border: 1px solid black;*/
-			flex-grow: 1;
-			margin-right: 80px;
-			justify-content: end;
-			gap: 2em;
 		}
 	}
 </style>

@@ -75,6 +75,9 @@
 	}
 	.uni {
 		color: #6f6e69;
+		color: #575653;
+		font-family: Tisa, sans-serif;
+		font-weight: 300;
 	}
 	@media (min-width: 1920px) {
 		.left {

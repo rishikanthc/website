@@ -38,7 +38,9 @@
 
 	a {
 		text-decoration: none;
-		color: #205ea6;
+		/*color: #205ea6;*/
+		color: #5371ff;
+		color: #1f60c2;
 	}
 	.contact {
 		display: flex;
