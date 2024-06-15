@@ -16,6 +16,7 @@
 	}
 	a {
 		color: #100f0f;
+		color: #78a9ff;
 	}
 	@media (min-width: 1280px) {
 		.navbar {

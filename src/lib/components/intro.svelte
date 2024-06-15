@@ -34,6 +34,12 @@
 		height: 100%;
 		align-items: end;
 		justify-content: end;
+		background-color: #262626;
+		padding: 2em;
+		border-radius: 10px;
+		box-shadow:
+			inset 0 2px 2px #000,
+			0 2px 0 hsla(30, 0%, 32%, 0.55);
 	}
 
 	a {
@@ -41,6 +47,8 @@
 		/*color: #205ea6;*/
 		color: #5371ff;
 		color: #1f60c2;
+		color: #0e61fe;
+		color: #78a9ff;
 	}
 	.contact {
 		display: flex;
@@ -48,8 +56,13 @@
 		font-size: 0.9em;
 		height: fit-content;
 	}
+	.job {
+		color: #da1e28;
+		color: #d62c6f;
+	}
 	.text {
 		margin: 0 auto;
+		color: #c6c6c6;
 	}
 	.circly {
 		display: none;
@@ -75,7 +88,6 @@
 		}
 		.job {
 			font-size: 1.2em;
-			color: #a02f6f;
 		}
 		.text p {
 			clear: both;

@@ -30,9 +30,6 @@
 				<div class="degree">{e.degree} in {e.dep}</div>
 				<div class="row">
 					<div class="uni">{e.uni}</div>
-					<div class="loc">
-						{#if e.loc}{e.loc}{/if}
-					</div>
 				</div>
 			</div>
 			<div class="year">{e.year}</div>
@@ -61,6 +58,11 @@
 	.year {
 		font-size: 16px;
 		color: #205ea6;
+		color: #77a9fe;
+		color: #0e61fe;
+		color: #1261fe;
+		color: #4589ff;
+		/*color: #0e61fe;*/
 		width: fit-content;
 		margin: 0 auto;
 	}
@@ -76,6 +78,7 @@
 	.uni {
 		color: #6f6e69;
 		color: #575653;
+		color: #c6c6c6;
 		font-family: Tisa, sans-serif;
 		font-weight: 300;
 	}
@@ -85,11 +88,9 @@
 		}
 		.year {
 			font-size: 20px;
-			color: #205ea6;
 		}
 		.loc {
 			font-size: 10px;
-			color: #24837b;
 		}
 	}
 </style>

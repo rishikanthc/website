@@ -37,7 +37,7 @@
 <div class="app">
 	<div class="header">
 		<div class="logo">
-			<Logo iconColor="#000" />
+			<Logo iconColor="#001141" />
 		</div>
 		<div class="name">
 			<div class="fname">RISHIKANTH</div>
@@ -58,6 +58,7 @@
 	.logo {
 		/*width: 48px;*/
 		background-color: #ffd000;
+		background-color: #fedc69;
 		/*background-color: #da702c;*/
 		/*padding: 4px 6px 4px 6px;*/
 		padding: 8px;
@@ -82,6 +83,7 @@
 		left: 0;
 		padding: 0.5em;
 		background-color: #fff;
+		background-color: #161616;
 		/*background-color: #fffcf0;*/
 	}
 	.name {
@@ -92,6 +94,7 @@
 		gap: 2px;
 		font-size: 1.3em;
 		color: #100f0f;
+		color: #1261fe;
 		margin: 0;
 		padding: 0;
 	}
@@ -110,15 +113,7 @@
 		padding: 0;
 		margin: 0;
 	}
-	.front {
-		display: grid;
-		align-items: top;
-		justify-content: center;
-		/*overflow-y: scroll;*/
-		/*grid-auto-columns: 1fr;*/
-		gap: 4em;
-		margin: 4em auto 0em auto;
-	}
+
 	.app {
 		max-width: 1920px;
 		margin: 0 auto;

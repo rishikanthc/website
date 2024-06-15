@@ -9,11 +9,11 @@
 
 <div class="level">
 	{#each Array(level) as _}
-		<Circle2 width={size} iconColor="#205EA6" />
+		<Circle2 width={size} iconColor="#0e61fe" />
 	{/each}
 
 	{#if half}
-		<Halfcircle width={size2} iconColor="#205EA6" />
+		<Halfcircle width={size2} iconColor="#0e61fe" />
 	{/if}
 
 	{#if level < 5 && half}

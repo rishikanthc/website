@@ -15,10 +15,11 @@
 		/*height: 50px;*/
 		/*height: 16px;*/
 		letter-spacing: 4px;
-		color: #100f0f;
+		/*color: #100f0f;*/
+		color: #f4f4f4;
 		padding: 0;
-		border-bottom: 1px solid #ffbd59;
-		/*border-bottom: 1px solid #af3029; /*#bc5215; #da702c;*/
+		/*border-bottom: 1px solid #ffbd59;*/
+		/*border-bottom: 1px solid #525252;*/
 		padding-bottom: 8px;
 	}
 	@media (min-width: 710px) {

@@ -57,7 +57,7 @@
 		<div class="rows">
 			{#each awards as award}
 				<div class="row">
-					<div class="star"><Award size="28" starColor="#ffc200" /></div>
+					<div class="star"><Award size="28" starColor="#fddd69" /></div>
 					<div class="award">{award.name}</div>
 					<div class="sep">|</div>
 					<div class="event">{award.event}</div>
@@ -103,11 +103,16 @@
 	.event {
 		font-size: 14px;
 		color: #575653;
+		color: #c6c6c6;
 	}
 	.sep {
 		width: 2px;
 		font-size: 10px;
 		background-color: #205ea6;
+		background-color: #0043ce;
+
 		color: #205ea6;
+		color: #0043ce;
+		color: #4589ff;
 	}
 </style>

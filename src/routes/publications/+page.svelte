@@ -116,7 +116,7 @@
 				{#if pub.award}
 					<div class="award">
 						<div class="icon">
-							<Award size="24" starColor="#ffbd59" />
+							<Award size="24" starColor="#fedc69" />
 						</div>
 						<div class="name">{pub.award}</div>
 					</div>
@@ -134,13 +134,17 @@
 		display: flex;
 		flex-direction: column;
 		gap: 2.5em;
+		margin-top: 5em;
 	}
 	.item {
-		box-shadow: 0 1px 3px hsla(0, 0%, 0%, 0.2);
+		/*box-shadow: 0 1px 3px hsla(0, 0%, 0%, 0.2);*/
+		box-shadow: 0 1px 3px hsla(0, 0%, 0%, 1);
 		padding: 1em;
-		border-radius: 5px;
+		background-color: #262626;
+		border-radius: 10px;
 		display: flex;
-		gap: 10em;
+		flex-wrap: wrap;
+		/*gap: 10em;*/
 		justify-content: space-between;
 	}
 	.award {
@@ -152,29 +156,42 @@
 	.name {
 		color: #a02f6f;
 		color: #bb100a;
+		color: #f6535c;
 		font-size: 16px;
 	}
 	.right {
-		font-size: 18px;
+		font-size: 14px;
 		/*color: #205ea6;*/
 		color: #5371ff;
 		color: #1f60c2;
+		color: #1261fe;
 		font-family: Montserrat, sans-serif;
 	}
 	.authors {
 		font-style: italic;
 		/*color: #5e409d;*/
 		color: #1f60c2;
+		color: #1261fe;
 		font-size: 16px;
 	}
 	.title {
 		font-size: 20px;
 		/*color: #343331;*/
 		color: #575653;
+		color: #f4f4f4;
 	}
 	.venue {
 		font-size: 14px;
 		font-weight: 300;
+		color: #c6c6c6;
+	}
+	@media (min-width: 710px) {
+		.right {
+			font-size: 18px;
+		}
+		.front {
+			margin-top: 5em;
+		}
 	}
 	@media (min-width: 1280px) {
 		.front {

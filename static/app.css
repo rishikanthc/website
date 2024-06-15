@@ -2,6 +2,8 @@ body {
     /*background-color: #fffcf0;*/
     font-family: 'Tisa', sans-serif;
     color: #100F0F;
+    color: #f4f4f4;
+    background-color: #161616;
     /*background-color: #FFFCF0;*/
     height: 98svh;
     display: flex;

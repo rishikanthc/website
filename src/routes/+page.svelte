@@ -29,9 +29,7 @@
 		.intern {
 			grid-area: four;
 		}
-		.intro {
-			grid-area: one;
-		}
+
 		.education {
 			grid-area: two;
 		}

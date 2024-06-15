@@ -92,15 +92,19 @@
 	.highlight {
 		font-style: italic;
 		color: #24837b;
+		color: #00c2bf;
 		width: fit-content;
 	}
 	.logis {
 		color: #205ea6;
+		color: #0e61fe;
+		color: #4589ff;
 		width: fit-content;
 	}
 	.org {
 		font-size: 18px;
 		color: #d14d41;
+		color: #d62c6f;
 		width: fit-content;
 	}
 	.title {
@@ -111,6 +115,7 @@
 		line-height: 1.6;
 		width: fit-content;
 		color: #6f6e69;
+		color: #c6c6c6;
 	}
 
 	@media (min-width: 710px) {
