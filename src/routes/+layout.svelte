@@ -92,7 +92,8 @@
 		justify-content: space-between;
 		align-items: center;
 		gap: 2px;
-		font-size: 1.3em;
+		font-size: 32px;
+		/* font-size: 1.3em; */
 		color: #100f0f;
 		color: #1261fe;
 		margin: 0;
@@ -115,7 +116,8 @@
 	}
 
 	.app {
-		max-width: 1920px;
+		width: min(100%, 1920px);
+		/* max-width: 1920px; */
 		margin: 0 auto;
 		/*overflow: hidden;*/
 	}
@@ -126,6 +128,10 @@
 		.logo {
 			width: 36px;
 			height: 36px;
+		}
+		.name {
+			font-size: 48px;
+			gap: 0.5em;
 		}
 	}
 
@@ -145,6 +151,10 @@
 		}
 		.header {
 			height: 50px;
+		}
+		.name {
+			font-size: 56px;
+			gap: 0.5em;
 		}
 		.pane {
 			display: flex;

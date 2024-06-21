@@ -110,6 +110,7 @@
 	.title {
 		font-style: italic;
 		width: fit-content;
+		color: #e0e0e0;
 	}
 	.desc {
 		line-height: 1.6;

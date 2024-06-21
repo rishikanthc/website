@@ -99,6 +99,7 @@
 	}
 	.award {
 		font-size: 18px;
+		color: #e0e0e0;
 	}
 	.event {
 		font-size: 14px;

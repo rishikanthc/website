@@ -60,5 +60,6 @@
 	}
 	.label {
 		font-size: 16px;
+		color: #e0e0e0;
 	}
 </style>

@@ -66,10 +66,6 @@
 		width: fit-content;
 		margin: 0 auto;
 	}
-	.loc {
-		font-size: 10px;
-		color: #24837b;
-	}
 	.row {
 		display: flex;
 		align-items: end;
@@ -79,8 +75,13 @@
 		color: #6f6e69;
 		color: #575653;
 		color: #c6c6c6;
+		color: #c6c6c6;
 		font-family: Tisa, sans-serif;
 		font-weight: 300;
+	}
+	.degree {
+		color: #f4f4f4;
+		color: #e0e0e0;
 	}
 	@media (min-width: 1920px) {
 		.left {

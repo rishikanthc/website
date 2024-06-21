@@ -35,7 +35,8 @@
 		align-items: end;
 		justify-content: end;
 		background-color: #262626;
-		padding: 2em;
+		padding: 1em;
+		width: 80%;
 		border-radius: 10px;
 		box-shadow:
 			inset 0 2px 2px #000,
@@ -64,12 +65,21 @@
 		margin: 0 auto;
 		color: #c6c6c6;
 	}
-	.circly {
+	/* .circly {
 		display: none;
+	} */
+
+	.circly {
+		display: block;
+		float: left;
+		width: 78px;
+		height: 78px;
+		border-radius: 50%;
+		margin: 0.5em;
 	}
 	@media (min-width: 710px) {
 		.intro {
-			width: 90%;
+			width: 65%;
 		}
 	}
 	@media (min-width: 1280px) {
@@ -77,6 +87,7 @@
 			align-items: end;
 			justify-content: end;
 			width: 75%;
+			padding: 2em;
 		}
 		.circly {
 			display: block;
