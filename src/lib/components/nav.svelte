@@ -1,6 +1,7 @@
 <div class="navbar">
 	<div class="navitem"><a href="/">HOME</a></div>
 	<div class="navitem"><a href="/publications">PUBLICATIONS</a></div>
+	<div class="navitem"><a href="https://tensorscrolls.io" target="_blank">TENSOR SCROLLS</a></div>
 </div>
 
 <style>

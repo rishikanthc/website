@@ -76,7 +76,7 @@
 		gap: 1rem;
 		font-size: 20px;
 		height: 64px;
-		z-index: 100;
+		z-index: 500;
 		position: fixed;
 		width: 100%;
 		top: 0;
